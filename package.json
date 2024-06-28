@@ -1,0 +1,35 @@
+{
+  "name": "tp3-aw2",
+  "version": "1.0.0",
+  "description": "refactorización completa de API RESTful utilizando framework ExpressJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasvignolo/TP3-AW2-APIRESTful-EXPRESS.git"
+  },
+  "keywords": [
+    "jwt"
+  ],
+  "author": "Vignolo Tomás",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomasvignolo/TP3-AW2-APIRESTful-EXPRESS/issues"
+  },
+  "homepage": "https://github.com/tomasvignolo/TP3-AW2-APIRESTful-EXPRESS#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.12.0"
+  }
+}
